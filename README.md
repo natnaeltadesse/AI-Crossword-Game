@@ -1,24 +1,38 @@
-# Crossword Puzzle Game
+# Crossword Game
 
-This is a Python program that generates crossword puzzles. Given a set of words, the program will generate a crossword puzzle with those words as clues. 
+A fun crossword game made with Python and tkinter.
+
+## Requirements
+
+- Python 3
+- tkinter (usually comes with Python)
 
 ## Installation
 
-1. Clone the repository to your local machine.
-2. Make sure you have Python 3 installed.
-3. Install the required packages with `pip install -r requirements.txt`.
+Clone the repository:
 
-## Usage
 
-1. Open `crossword.py`.
-2. Edit the `WORDS` list with your own set of words.
-3. Run the program with `python crossword.py`.
-4. The program will generate a crossword puzzle as a `.png` image in the `output` directory.
+Change into the directory:
+
+
+Run the game:
+
+
+## Gameplay
+
+- The game will display a crossword puzzle on the left side of the screen and clues on the right side.
+- Click on a clue to highlight the corresponding word in the puzzle.
+- Type your answer into the highlighted word.
+- If you get stuck, you can reveal a letter by clicking the "Reveal Letter" button.
+- If you need more help, you can reveal the entire word by clicking the "Reveal Word" button.
+- When you have completed the puzzle, click the "Check Answers" button to see if you have any mistakes.
+- If you have any mistakes, they will be highlighted in red.
+- Once you have corrected your mistakes, click the "Check Answers" button again to check your work.
 
 ## Contributing
 
-Contributions are welcome! If you have an idea for a feature or find a bug, please open an issue or submit a pull request.
+Contributions are welcome! Please create a pull request with your changes.
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License. See the LICENSE file for details.
